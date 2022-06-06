@@ -7,8 +7,8 @@ export const runAudio = (isStop) => {
   // put here quize
   let quize = [
     { q: "We welcome  , you on our , Manodyam's , Please   share  your  Name ?", t: 7000 },
-    { q: "Please   share  your  age ?", t: 5000 },
-    { q: "Please   share   your  gender ?", t: 5000 },
+    { q: "Please   share  your  age ?", t: 4500 },
+    { q: "Please   share   your  gender ?", t: 4500 },
     {
       q: "Would you , like to share , How are you feeling  , today ?",
       t: 8000,
@@ -97,8 +97,8 @@ export const runAudio = (isStop) => {
       if (rest) {
         quize = [
           { q: "We welcome  , you on our , Manodyam's , Please   share  your  Name ?", t: 7000 },
-          { q: "Please   share  your  age ?", t: 5000 },
-          { q: "Please   share   your  gender ?", t: 5000 },
+          { q: "Please   share  your  age ?", t: 4500 },
+          { q: "Please   share   your  gender ?", t: 4500 },
           {
             q: "Would you , like to share , How are you feeling  , today ?",
             t: 8000,
