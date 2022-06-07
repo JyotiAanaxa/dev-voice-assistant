@@ -21,7 +21,7 @@ export async function saveFile(audioObje) {
   // });
   const formData = new FormData();
   formData.append("audio", audioObje.file );
-  axios.post("http://localhost:3020/api/voicechat/voice", formData, {
+  axios.post("https://swarnratnaindia.com/dev-apiman/api/voicechat/voice", formData, {
     headers: {
       "Content-Type": "multipart/form-data",
     },
@@ -51,7 +51,7 @@ export async function saveFile(audioObje) {
 console.log("fgdfhfdh");
 
 axios
-  .get("http://localhost:3020/api/voice-assessment-question")
+  .get("https://swarnratnaindia.com/dev-apiman/api/voice-assessment-question")
   .then((response) => {
     console.log(9999999, response.data);
     // document.getElementById("questionss").innerHTML = "hjghjjjjgnvngjgj";
